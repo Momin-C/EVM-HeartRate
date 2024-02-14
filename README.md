@@ -9,7 +9,7 @@ Eulerian Video Magnification is a series of algorithms used to amplify subtle ch
 ## Photos
 This project is currently a work in progress to better implement Eulerian Video Magnification, however, in its current state it can still detect heart rate from a video. The following graph below uses `face.mp4` and plots the change in colour intensity.
 
-![](Images/plot.png)
+![](images/plot.png)
 
 ## References
 
