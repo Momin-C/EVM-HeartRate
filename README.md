@@ -1,5 +1,5 @@
 <br />
-  <h2 align="center">Eulerian Video Magnification Heart Rate Sensor (WIP)</h2>
+  <h2 align="center">Live Heart Rate Sensor (WIP)</h2>
 </p>
 
 ## About The Project
@@ -10,6 +10,8 @@ Eulerian Video Magnification is a series of algorithms used to amplify subtle ch
 This project is currently a work in progress to better implement Eulerian Video Magnification, however, in its current state it can still detect heart rate from a video. The following graph below uses `face.mp4` and plots the change in colour intensity.
 
 ![](images/plot.png)
+
+This is currently the most accurate method from this project, a live implementation is also being implemented.
 
 ## References
 
