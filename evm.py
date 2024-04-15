@@ -162,11 +162,11 @@ for i in range(face.shape[0]):
     downscaled_faces.append(downscaled_frame)
 face = np.array(downscaled_faces)
 
-# Dummy values for demonstration
-fs = 30  # Sampling frequency in Hz (frames per second)
-f_low = 0.5  # Low cut-off frequency in Hz
-f_high = 2  # High cut-off frequency in Hz
-selected_channel = 1
+#Dummy values for demonstration
+fs = 30  #Sampling frequency in Hz (frames per second)
+f_low = 0.5 #Low cutoff frequency
+f_high = 2 #High cutoff frequency
+selected_channel = 1 #BGR = Green
 
 filtered_data = np.empty((face.shape[0],face.shape[1],face.shape[2]))
 for i in range(face.shape[1]):

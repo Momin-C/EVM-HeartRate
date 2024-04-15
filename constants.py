@@ -1,0 +1,19 @@
+from sys import platform
+
+PIXELS_TO_SELECT = 20
+RECTANGLE_SIZE = 3
+FLIP_HORIZONTAL = 1
+
+RED =   (0,0,255)
+GREEN = (0,255,0)
+BLUE =  (255,0,0)
+
+CHANNEL_BLUE = 0
+CHANNEL_GREEN = 1
+CHANNEL_RED = 2
+CHANNEL_OF_INTEREST = CHANNEL_GREEN
+
+FRAME_NAME = "Live Heart Rate Tracker"
+VIDEO_CAPTURE_INDEX = 0
+if platform == "darwin":
+    VIDEO_CAPTURE_INDEX = 1
